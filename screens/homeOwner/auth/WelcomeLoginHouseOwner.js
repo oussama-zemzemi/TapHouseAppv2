@@ -78,11 +78,7 @@ const WelcomeLoginHouseOwner = ({ navigation}) => {
       <Pressable style={styles.eye} onPress={handlePasswordVisibility}>
         <MaterialCommunityIcons name={rightIcon} size={30} color="#44b3cc" />
       </Pressable>
-      {/* <Image
-        style={styles.eyePasswordIcon}
-        resizeMode="cover"
-        source={require("../../../assets/homeOwner/Login/eyePassword.png")}
-      /> */}
+     
       <RNPTextInput
         style={styles.rectangleRNPTextInput1}
         placeholder="Enter Your Email"

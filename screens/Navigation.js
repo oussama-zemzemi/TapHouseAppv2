@@ -26,7 +26,7 @@ import {
 import ProfileView from "./ProfileView";
 import Detail from "./Detail";
 
-const App = () => {
+const Navigation = () => {
   const [hideSplashScreen, setHideSplashScreen] = React.useState(true);
 
   function MaterialIcon({ name, style }) {
@@ -234,4 +234,4 @@ const App = () => {
     </>
   );
 };
-export default App;
+export default Navigation;

@@ -83,11 +83,8 @@ const WelcomeLoginStudent = ({ navigation}) => {
         underlayColor="#fff"
         onPress={() => handleSubmit()}
       >
-        <Image
-          style={styles.icon}
-          resizeMode="cover"
-          source={require("../../assets/students/WelcomeLoginpage/rectangle3.png")}
-        />
+        
+        <View />
       </TouchableHighlight>
       <Text style={styles.buttonLoginText}>Login</Text>
       <View style={styles.groupView}>
@@ -170,7 +167,13 @@ const styles = StyleSheet.create({
     width: 312,
     height: 48,
   },
- 
+  eyePasswordIcon: {
+    position: "absolute",
+    top: 334.5,
+    left: 309,
+    width: 24,
+    height: 24,
+  },
   rectangleRNPTextInput1: {
     position: "absolute",
     top: 300.5,
@@ -188,8 +191,10 @@ const styles = StyleSheet.create({
   },
   rectangleTouchableHighlight: {
     position: "absolute",
+    top: 491,
     left: 42.5,
-    top: 428,
+    borderRadius: 5,
+    backgroundColor: "#3f424a",
     width: 290,
     height: 48,
   },
